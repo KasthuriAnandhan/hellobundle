@@ -1,0 +1,21 @@
+{
+    "name": "gsmcompany/hellobundle",
+    "type": "pimcore-bundle",
+    "description": "A test bundle for Pimcore",
+    "keywords": ["pimcore", "bundle"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "authors": [
+        {
+            "name": "Kasthuri",
+            "email": "kanandhan@gsmorg.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GSMCompany\\HelloBundle\\": "src/"
+        }
+    }
+}
